@@ -1,6 +1,6 @@
 {
     'name': 'Soft Delete Manager',
-    'version': '16.0.1.0.0',  # Updated to include Odoo version 16.0
+    'version': '16.0.2.0.0',  # Updated to include Odoo version 16.0
     'summary': 'Manage soft delete functionality for Odoo models',
     'description': '''
         This module allows administrators to configure soft delete functionality
