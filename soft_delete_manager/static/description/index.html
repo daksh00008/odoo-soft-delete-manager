@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Delete Manager</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            color: #4B0082;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 1.5em;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cover-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .features ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .features li {
+            margin-bottom: 0.5em;
+        }
+        .screenshots img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .support a {
+            color: #4B0082;
+            text-decoration: none;
+        }
+        .support a:hover {
+            text-decoration: underline;
+        }
+        .license {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cover Image -->
+        <div class="cover-image">
+            <img src="soft_delete_manager_cover.png" alt="Soft Delete Manager Cover Image">
+        </div>
+
+        <!-- Overview -->
+        <div class="section overview">
+            <h1>Soft Delete Manager</h1>
+            <p><strong>Manage soft delete functionality for Odoo models seamlessly.</strong></p>
+            <p>
+                This module enables administrators to configure soft delete functionality for selected Odoo models.
+                Instead of permanently deleting records, they are marked as deleted and can be recovered or permanently
+                removed using a wizard. Perfect for preventing accidental data loss and managing data retention policies.
+            </p>
+        </div>
+
+        <!-- Key Features -->
+        <div class="section features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Enable soft delete for specific Odoo models via settings.</li>
+                <li>Add a "Recover Deleted" button to tree views of configured models.</li>
+                <li>Use a wizard to recover or permanently delete soft-deleted records.</li>
+                <li>Hide soft-deleted records from default views using domain filters.</li>
+                <li>Securely manage data with the ability to restore records when needed.</li>
+            </ul>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="section screenshots">
+            <h2>Screenshots</h2>
+
+            <!-- Screenshot 1: Settings Page -->
+            <div>
+                <h3>Configure Soft Delete for Models</h3>
+                <p>Select the models for which you want to enable soft delete functionality in the Settings menu.</p>
+                <img src="screenshot_settings.png" alt="Soft Delete Manager Settings">
+            </div>
+
+            <!-- Screenshot 2: Recover Deleted Button -->
+            <div>
+                <h3>Recover Deleted Button in Tree View</h3>
+                <p>A "Recover Deleted" button appears in the tree view of configured models, allowing you to access deleted records.</p>
+                <img src="screenshot_recover_button.png" alt="Recover Deleted Button">
+            </div>
+
+            <!-- Screenshot 3: Wizard -->
+            <div>
+                <h3>Wizard to Restore or Delete Records</h3>
+                <p>Use the wizard to view soft-deleted records and either restore them or permanently delete them.</p>
+                <img src="screenshot_wizard.png" alt="Soft Delete Wizard">
+            </div>
+        </div>
+
+        <!-- Support -->
+        <div class="section support">
+            <h2>Support</h2>
+            <p>
+                If you have any questions or need assistance, feel free to reach out!
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a><br>
+                <strong>GitHub:</strong> <a href="https://github.com/daksh00008/soft_delete_manager">https://github.com/daksh00008/soft_delete_manager</a>
+            </p>
+        </div>
+
+        <!-- License -->
+        <div class="section license">
+            <h2>License</h2>
+            <pre>
+Odoo Proprietary License v1.0
+
+This software and associated files (the "Software") may only be used (executed,
+modified, executed after modifications) if you have purchased a valid license
+from the authors, typically via Odoo Apps, or if you have received a written
+agreement from the authors of the Software (see the COPYRIGHT file).
+
+You may develop Odoo modules that use the Software as a library (typically
+by depending on it, importing it and using its resources), but without copying
+any source code or material from the Software. You may distribute those
+modules under the license of your choice, provided that this license is
+compatible with the terms of the Odoo Proprietary License (For example:
+LGPL, MIT, or proprietary licenses similar to this one).
+
+It is forbidden to publish, distribute, sublicense, or sell copies of the Software
+or modified copies of the Software.
+
+The above copyright notice and this permission notice must be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
