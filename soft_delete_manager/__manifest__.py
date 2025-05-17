@@ -13,7 +13,7 @@
     'category': 'Tools',
     'author': 'Daksh',
     'website': 'https://github.com/daksh00008',  # Replace with your website if available
-    'license': 'AGPL-3',  # Added license (common for Odoo modules)
+    'license': 'OEEL-1',  # Added license (common for Odoo modules)
     'depends': ['base', 'web'],
     'data': [
         'security/ir.model.access.csv',
