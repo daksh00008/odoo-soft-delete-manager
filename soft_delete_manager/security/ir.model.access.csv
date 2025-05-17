@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_soft_delete_manager_config_admin,access.soft.delete.manager.config.admin,model_soft_delete_manager_config,base.group_system,1,1,1,1
+access_soft_delete_manager_config_user,access.soft.delete.manager.config.user,model_soft_delete_manager_config,base.group_user,1,0,0,0
+access_soft_delete_mixin_admin,access.soft.delete.mixin.admin,model_soft_delete_mixin,base.group_system,1,1,1,1
+access_soft_delete_mixin_user,access.soft.delete.mixin.user,model_soft_delete_mixin,base.group_user,1,0,0,0
