@@ -1,1 +1,0 @@
-# soft_delete_manager
