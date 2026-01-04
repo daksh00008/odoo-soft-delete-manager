@@ -1,9 +1,0 @@
-<templates>
-    <t t-name="soft_delete_manager.ListView.Buttons.SoftDelete" t-inherit="web.ListView.Buttons">
-        <xpath expr="//div[contains(@class, 'o_list_buttons')]" position="inside">
-            <button type="button" class="btn btn-outline-danger o_list_button" t-on-click="onRecoverClick" style="margin-left: 5px;">
-                Recover Deleted
-            </button>
-        </xpath>
-    </t>
-</templates>
